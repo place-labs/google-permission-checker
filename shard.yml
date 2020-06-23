@@ -1,0 +1,11 @@
+name: checker
+version: 1.0.0
+
+dependencies:
+  # Google Calendar integration
+  google:
+    github: PlaceOS/google
+
+development_dependencies:
+  ameba:
+    github: veelenga/ameba
