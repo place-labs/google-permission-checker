@@ -22,11 +22,11 @@ OptionParser.parse(ARGV.dup) do |parser|
     domain = d
   end
 
-  parser.on("-a EMAIL", "--admin=EMAIL", "the service user") do |e|
+  parser.on("-s SERVICE_EMAIL", "--service=SERVICE_EMAIL", "the service user") do |e|
     service = e
   end
 
-  parser.on("-r EMAIL", "--resource=EMAIL", "a resource calendar email") do |e|
+  parser.on("-r RESOURCE_EMAIL", "--resource=RESOURCE_EMAIL", "a resource calendar email") do |e|
     resource = e
   end
 
